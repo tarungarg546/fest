@@ -1,0 +1,90 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before{
+	font-family: "entypo",sans-serif;
+	}
+.footer
+{
+	margin: -150px auto;
+	width: 220px;
+}
+.ribbon
+{
+	float: left;
+	-webkit-appearance:none;
+	-moz-appearnace:none;
+	appearance:none;
+	-webkit-transition:all 0.2s ease;
+	-mos-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+	cursor: pointer;
+	border: none;
+	width: 70px;
+	height: 100px;
+	position: fixed;
+	color: white;
+	-webkit-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, 0.5));
+  	-moz-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, 0.5));
+  	-ms-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, 0.5));
+  	-o-filter: drop-shadow(0 1px 10px rgba(0, 0, 0, 0.5));
+  	filter: drop-shadow(0 1px 10px rgba(0, 0, 0, 0.5));
+}
+.ribbon:hover {
+  margin-top: 145px;
+  color: white;
+}
+.ribbon span {
+  line-height: 20px;
+  font-size: 5em;
+}
+.ribbon:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 50px solid blue;
+  border-right: 100px solid transparent;
+}
+.ribbon:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 50px solid blue;
+  border-left: 100px solid transparent;
+}
+.facebook {
+  background: #3b5998;
+  color: #1e2e4f;
+  margin-right: 5px;
+}
+.facebook:after {
+  border-top-color: #3b5998;
+}
+.facebook:before {
+  border-top-color: #3b5998;
+}
+.youtube {
+  background: #c4302b;
+  color: #701c19;
+  margin-right: 5px;
+}
+.youtube:after {
+  border-top-color: #c4302b;
+}
+.youtube:before {
+  border-top-color: #c4302b;
+}
+.twitter {
+  background: #00a0d1;
+  color: #00526b;
+}
+.twitter:after {
+  border-top-color: #00a0d1;
+}
+.twitter:before {
+  border-top-color: #00a0d1;
+}

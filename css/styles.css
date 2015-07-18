@@ -1,0 +1,244 @@
+*
+{
+	color: white;
+	font-weight: bold;
+}
+div
+{
+	display: block;
+}
+body
+{
+	background-color: #161616;
+	margin: 0;
+	color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+::-webkit-scrollbar{
+		width: 12px;
+	background-color: #F5F5F5;
+	}
+::-webkit-scrollbar-thumb
+{
+		border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+::-webkit-scrollbar-track
+{-webkit-box-shadow: inset 0 0 6px transparent;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+
+	}
+
+#contentWrap
+{
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+#logo
+{
+	z-index: 3;
+	position: absolute;
+	width: 350px;
+	display: block;
+	height: 145px;
+}
+#logoWrap
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	width: 16.667%;
+}
+#container
+{
+	margin-left: 88px;
+	margin-right: 88px;
+	width: 1170px;
+	height: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#container:before,#container:after
+{
+	display: table;
+	content: " ";
+}
+#fullWrap 
+{
+  	width: 100%;
+  	height: 92%;
+  	/* Negative indent footer by its height */
+  	margin: 0 auto ;
+  	/* Pad bottom by footer height */
+  	padding: 0 auto;
+  	overflow: hidden;
+}
+.row
+{
+	clear: both;
+	margin-left: 0;
+	margin-right:0; 
+}
+#topRow
+{
+	z-index: 10;
+	margin-top: 28px;
+}
+#nav-bar
+{
+	z-index: 3;
+	margin: 0 auto;
+	display: inline-block;
+	padding-left: 350px;
+}
+#nav-bar > ul
+{
+	z-index: 3;
+	padding-right: 168px;
+	padding-left: 40px;
+	margin-bottom: 10px;
+}
+.nav-image
+{
+	position: relative;
+	z-index: 3;
+	width: 5.2em;
+	border: 0;
+}
+.description
+{
+	display: none;
+	position: absolute;
+	z-index: 3;
+	font-size: 14px;
+	text-align: center;
+	max-height: 0.1px;
+	min-height: 0.1px;
+}
+.list
+{
+	z-index: 3;
+	margin-left: 0.2em !important;
+	margin-right: 0.2em !important;
+}
+img
+{
+	vertical-align: middle;
+}
+.fade {
+    opacity: 1;
+}
+.fade.ng-enter,
+.fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.fade.ng-enter {
+	transition: all 1.5s ease;
+    opacity: 0;
+}
+.fade.ng-enter-active {
+    opacity: 1;
+}
+.fade.ng-leave {
+    transition: all 0.0s ease;
+}
+.fade.ng-leave-active {
+    opacity: 0;
+}
+
+#dancingbars
+{
+	position: fixed;
+	z-index: 2;
+	bottom: 0;
+	width: 100%;
+}
+.khamba
+{
+	z-index: 3;
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+	bottom: 0;
+	width: 0.6%;
+}
+#front
+{
+	/**NOTE the greater z-index**/
+	z-index: 2;
+	position: fixed;
+}
+#footer
+{
+	z-index: 3;
+	position: relative;
+	bottom: 0px;
+	background:rgba(0,0,0,0.4);
+	min-width: 1250px;
+}
+#footer>#container
+{
+	/*position: fixed;*/
+	z-index: 3;
+	width: 1170px;
+	padding-bottom: 14px;
+}
+#footer-items
+{
+	z-index: 3;
+	padding-left: 0;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+audio:hover, audio:focus, audio:active
+{
+	z-index: 3;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.8;
+}
+audio
+{
+	z-index: 3;
+	position: fixed;
+	width: 20%;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.4;
+}
+ul
+{
+	list-style-type: none;
+	text-align: center;
+}
+ul li
+{
+	display: inline-block;
+	vertical-align: top;
+}
+a
+{
+	text-decoration: none;
+}
+a img
+{
+	border: 0 none;
+}
+.social-image
+{
+	z-index: 3;
+	width : 45px;
+}
+#twit
+{
+	z-index: 3;
+	margin-left: 0.4em;
+}

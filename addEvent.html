@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Add your events
+		</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+  			<h2>Add events along with club name</h2>
+  			<form  method="post" action="check.php" enctype="multipart/form-data">
+    			<div class="form-group">
+      				<label for="club">Club:</label>
+      				<input type="text" class="form-control" id="club" placeholder="Enter your club" name="club" required>
+    			</div>
+    			<div class="form-group">
+				      <label for="ename">Event name:</label>
+				      <input type="text" class="form-control" id="ename" placeholder="Enter Event Name" name="ename" required>
+			    </div>
+			    <div class="form-group">
+			    	<label for="info">Event Information(like rules and egulations):</label>
+			    	<textarea rows="20" cols="100" class="form-control" id="info" name="info" required>
+			    	</textarea>
+			    </div>
+			    <div class="form-group">
+			    	<label for="prize">
+			    	Enter Prize:
+			    	</label>
+			    	<input type="text" class="form-control" id="prize" name="prize" placeholder="Enter prize money of leave empty">
+			    </div>
+			    <div class="form-group">
+			    	<label for="contactName">
+			    		Name of Contact Person:
+			    	</label>
+			    	<input type="text" name="contactName" id="contactName" class="form-control" placeholder="Enter Name of Contact Person" required>
+			    </div>
+			    <div class="form-group">
+			    	<label for="contactNumber">
+			    		Number of Contact Person:
+			    	</label>
+			    	<input type="text" name="contactNumber" id="contactNumber" class="form-control" placeholder="Enter Number of Contact Person" required>
+			    </div>
+			    <div class="form-group">
+			    	<label for="contactMail">
+			    		Mail of Contact Person:
+			    	</label>
+			    	<input type="email" name="contactMail" id="contactMail" class="form-control" placeholder="Enter Mail of Contact Person" required>
+			    </div>
+			    <div class="form-group">
+			    	<label for="date">
+			    		Date of event:
+			    	</label>
+			    	<input type="text" name="date" id="date" class="form-control" placeholder="Enter date of event" required>
+			    </div>
+			    <div class="form-group">
+			    	<label for="time">
+			    		Estimated Time of event:
+			    	</label>
+			    	<input type="text" name="time" id="time" class="form-control" placeholder="Enter time of event">
+			    </div>
+			    <div class="form-group">
+			    	<label for="link">
+			    		Registration link of event(if any or leave empty):
+			    	</label>
+			    	<input type="text" name="link" id="link" class="form-control" placeholder="Enter reg. link of event">
+			    </div>
+			    <div class="form-group">
+			    	<label for="short">
+			    		Small Image of event:
+			    	</label>
+			    	<input type="file" name="short" id="short">
+			    </div>    
+			    <div class="form-group">
+			    	<label for="big">
+			    		Large Image of event:
+			    	</label>
+			    	<input type="file" name="big" id="big" required>
+			    </div>
+			    <button type="submit" class="btn btn-default">Create Event</button>
+			 </form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+ padding:0px;
+;}
+body{
+	background:#333333;
+}
+
+#main{height:auto;
+	width:100%;
+	margin:0 auto;
+	
+}
+
+#lights{
+	top:48px;
+	position:absolute;
+	width:100%;
+	overflow:hidden
+}
+
+#lower{width:100%;
+       overflow:hidden;
+	   float:left;
+	   height:226px;
+	  }
+
+#screen {
+	margin-top:59px;
+	height:382px;
+	width:1304px;
+	margin-left:29px;
+	float:left;
+	background:url(../img/screen.jpg)
+}
+
+.slide1 {margin:60px 400px;
+}
+
+#seats1{
+	margin-top:15px;
+	
+}
+
+#seats2{
+	top:-145px;
+	position:relative
+	
+}
+#seats3{
+	top:-348px;
+	position:relative
+	
+}
+#seats4{
+	top:-600px;
+	position:relative
+	
+}
+
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+}
+
+
+
+.clear{
+	clear:both;
+}

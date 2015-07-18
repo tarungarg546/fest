@@ -1,0 +1,26 @@
+<script src="js/typed.js"></script>
+<div id="news">
+
+</div>
+<script type="text/javascript">
+	var temp=document.getElementById('news');
+	temp.style.height=$(window).height()+'px';
+	$(function(){
+		$("#news").typed({
+			strings:["website in making!","Technology Used:-<em>Angular JS</em>","<em>NodeJS</em>","<em>MongoDB</em>","<em>NodeJS</em>","In cut short <b><i>MEAN</i></b> stack","stay Tuned!"],
+			typeSpeed:40,
+			backDelay:500,
+			loop:true,
+			contentType:'html',
+			loopCount:false
+		});
+	});
+</script>
+<style type="text/css">
+	#news
+	{
+		position: relative;
+		font-size: 100px;
+		text-align: center;
+	}
+</style>
